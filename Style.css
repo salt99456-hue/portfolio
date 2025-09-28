@@ -1,0 +1,156 @@
+/* General Styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #747070 60%, #444 100%);
+    padding: 18px 40px;
+    box-shadow: 0 2px 8px rgba(216, 195, 195, 0.884);
+}
+
+.site-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff9800;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    font-size: 18px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.navbar .nav-links a:hover {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links a {
+    color: #fff;
+    background: #333;
+    padding: 7px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.social-links a:hover {
+    background: #ff9800;
+    color: #222;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    gap: 40px;
+}
+
+.profile-pic {
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #ff9800;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.profile-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    margin-left: 68px;
+}
+
+.profile-roles {
+    font-size: 1.3rem;
+    color: #444;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.profile-divider {
+    border: none;
+    border-top: 2px solid #ff9800;
+    width: 60%;
+    margin: 18px auto;
+}
+
+/* New CSS for About Me Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 30px 0;
+}
+
+.about-article {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+    padding: 32px 38px;
+    max-width: 600px;
+    text-align: center;
+    border-left: 6px solid #ff9800;
+}
+
+.about-article h2 {
+    font-size: 2rem;
+    color: #ff9800;
+    margin-bottom: 18px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.about-article p {
+    font-size: 1.15rem;
+    color: #333;
+    line-height: 1.7;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.footer-container {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    border-top: 2px solid #ff9800;
+}
